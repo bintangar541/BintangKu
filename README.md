@@ -56,7 +56,9 @@
 ### 🔐 Admin Panel
 <details>
   <summary>Lihat Screenshot Alur Admin</summary>
-  
+  **Login**
+  <img width="1917" height="999" alt="image" src="https://github.com/user-attachments/assets/1a9a9b31-5d76-4db8-812a-cc062e5f4702" />
+
   **Dashboard & Statistik**
   <img src="https://github.com/user-attachments/assets/0cc2e9a2-8d47-4f95-9b53-0a8fa3954c88" width="100%" />
   
@@ -84,12 +86,3 @@ cd topup-game-frontend
 npm install
 npm run dev
 Made with ❤️ by Bintang Ardhian Pratama
-
-
-### Keunggulan Format ini:
-1.  **Scannable:** Menggunakan bullet points sehingga fitur mudah dibaca dalam hitungan detik.
-2.  **Rapi:** Screenshot disembunyikan dalam `<details>`, sehingga tidak membuat halaman README terasa penuh sesak.
-3.  **To the point:** Langsung menjelaskan Tech Stack dan Instalasi, hal yang paling dicari oleh Tech Recruiter.
-
-**Saran Terakhir:** Di bagian **Description** (yang limit 350 karakter tadi), cukup tulis:
-*"Platform top-up game & voucher digital berbasis Laravel 9 dan React 19. Dilengkapi fitur input dinamis, kalkulasi harga real-time, dan dashboard admin analytics."*
