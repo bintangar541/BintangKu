@@ -60,8 +60,11 @@
   <img width="1917" height="999" alt="image" src="https://github.com/user-attachments/assets/1a9a9b31-5d76-4db8-812a-cc062e5f4702" />
 
   **Dashboard & Statistik**
-  <img src="https://github.com/user-attachments/assets/0cc2e9a2-8d47-4f95-9b53-0a8fa3954c88" width="100%" />
-  
+  <img width="1912" height="1004" alt="image" src="https://github.com/user-attachments/assets/16746e63-801f-4423-b3f7-630a244595ad" />
+
+  **Manajemen Game**
+  <img width="1907" height="1001" alt="image" src="https://github.com/user-attachments/assets/3524357e-a041-40ba-9b5e-064b7501857c" />
+
   **Manajemen Produk**
   <img src="https://github.com/user-attachments/assets/221eff2f-d44d-4580-9b7f-67bce0fdc942" width="100%" />
 </details>
@@ -71,7 +74,7 @@
 ## ⚙️ Instalasi Cepat
 
 ### **1. Backend**
-```bash
+bash
 cd topup-game-backend
 composer install
 cp .env.example .env # Sesuaikan DB_DATABASE ke PostgreSQL Anda
@@ -79,7 +82,7 @@ php artisan key:generate
 php artisan migrate --seed
 php artisan serve
 
-. Frontend
+### **2. Frontend**
 Bash
 
 cd topup-game-frontend
