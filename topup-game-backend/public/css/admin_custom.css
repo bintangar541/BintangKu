@@ -1,0 +1,106 @@
+/* Custom Admin Style to match Frontend */
+:root {
+    --primary-indigo: #4f46e5;
+    --dark-bg: #0d0f11;
+    --card-bg: #161a1e;
+    --dark-border: #1f2937;
+}
+
+body,
+.content-wrapper {
+    background-color: var(--dark-bg) !important;
+    color: #f8fafc !important;
+}
+
+/* Sidebar Styling */
+.main-sidebar {
+    background-color: var(--card-bg) !important;
+    border-right: 1px solid var(--dark-border);
+}
+
+.nav-sidebar .nav-link.active {
+    background-color: var(--primary-indigo) !important;
+    color: #fff !important;
+    box-shadow: 0 4px 15px rgba(79, 70, 229, 0.4);
+}
+
+.brand-link {
+    background-color: var(--card-bg) !important;
+    border-bottom: 1px solid var(--dark-border) !important;
+    color: var(--primary-indigo) !important;
+}
+
+/* Navbar Styling */
+.main-header {
+    background-color: var(--card-bg) !important;
+    border-bottom: 1px solid var(--dark-border) !important;
+}
+
+/* Cards Styling */
+.card {
+    background-color: var(--card-bg) !important;
+    border: 1px solid var(--dark-border) !important;
+    border-radius: 12px !important;
+    overflow: hidden;
+}
+
+.card-header {
+    border-bottom: 1px solid var(--dark-border) !important;
+}
+
+/* Table Styling */
+.table {
+    color: #cbd5e1 !important;
+}
+
+.table-bordered,
+.table-bordered td,
+.table-bordered th {
+    border-color: var(--dark-border) !important;
+}
+
+/* Input & Form Styling */
+.form-control {
+    background-color: var(--dark-bg);
+    border-color: var(--dark-border);
+    color: #fff;
+    border-radius: 8px;
+}
+
+.form-control:focus {
+    background-color: var(--dark-bg);
+    border-color: var(--primary-indigo);
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: var(--primary-indigo) !important;
+    border-color: var(--primary-indigo) !important;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #4338ca !important;
+    transform: translateY(-1px);
+    transition: all 0.2s;
+}
+
+/* Small Boxes */
+.small-box {
+    border-radius: 12px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--dark-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1f2937;
+    border-radius: 4px;
+}
