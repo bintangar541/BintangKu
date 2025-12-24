@@ -74,18 +74,20 @@
 ## ⚙️ Instalasi Cepat
 
 ### **1. Backend**
-bash
+```bash
 cd topup-game-backend
 composer install
 cp .env.example .env # Sesuaikan DB_DATABASE ke PostgreSQL Anda
 php artisan key:generate
 php artisan migrate --seed
 php artisan serve
+```
 
 ### **2. Frontend**
-Bash
+```bash
 
 cd topup-game-frontend
 npm install
 npm run dev
+```
 Made with ❤️ by Bintang Ardhian Pratama
